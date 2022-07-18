@@ -222,3 +222,65 @@ line-height: 17px;
 
 color: #ED6B4F;
 }
+
+
+/* ---------------------
+            media
+            --------------------- */
+
+
+@media screen and (max-width:767px) {
+    
+    header{
+        width: 100%;
+    }
+    .player-section{
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    .players{
+        flex-direction: column
+
+    }
+    header h2{
+        text-align: center;
+    }
+    .blogs{
+        grid-template-columns:repeat(1,1fr); 
+        
+        
+    }
+    article{
+       text-align: center;
+        flex-direction: column;
+     }
+     article img{
+        margin-left: 25%;
+     }
+     main{
+        width: 100%;
+     }
+     .abba{
+       
+        grid-template-columns: repeat(1,1fr);
+    align-items: center;
+       
+    }
+    main h2{
+        text-align: center;
+    }
+    .card{
+        margin-left: 20%;
+    }
+   
+   
+   
+    
+     nav .main{
+        width: 100%;
+    } 
+    nav .nav-logo{
+        
+        display: none;
+    } 
+}
